@@ -9,10 +9,10 @@ export default function Navbar() {
                     <div>
                         <ul className="flex flex-row gap-4">
                             <Link to="/">
-                                <li id="nav1" className="hover:text-cyan-600">Home</li>
+                                <li id="nav1" className=" hover:text-blue-500">Home</li>
                             </Link>
-                            <li className="hover:text-cyan-600">About</li>
-                            <li className="hover:text-cyan-600">Contact</li>
+                            <li className="hover:text-blue-500">About</li>
+                            <li className="hover:text-blue-500">Contact</li>
                         </ul>
                     </div>
                 </div>

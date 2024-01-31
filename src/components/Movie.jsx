@@ -17,7 +17,6 @@ export default function Movie() {
                 console.error('Error fetching show summary:', error);
             }
         };
-
         fetchSummary();
     }, [params.id]);
     return (

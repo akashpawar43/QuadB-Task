@@ -18,12 +18,12 @@ export default function Home() {
         handleData();
     }, [])
 
-    console.log(shows);
+    // console.log(shows);
 
     return (
         <>
             <Navbar />
-            <section className='w-full bg-black'>
+            <section className='w-full min-h-screen bg-black'>
                 <div className=' container mx-auto p-6'>
                     <h2 className='p-3 mb-5 text-white text-center font-bold text-2xl' >Movies Section</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
